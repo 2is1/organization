@@ -67,10 +67,7 @@ jobs:
   Source: GitHub Actions
 
 Push to main. The workflow builds dist/ and publishes it.
-Live at https://2is1.github.io within ~60 seconds.
-
-Optional: add a public/404.html copy of index.html
-if you use client-side routing.`,
+Live at https://2is1.github.io within ~60 seconds.`,
   },
 };
 

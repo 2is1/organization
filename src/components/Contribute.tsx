@@ -46,7 +46,7 @@ export function Contribute() {
                   Open the org on GitHub
                 </a>
                 <a
-                  href="https://github.com/2is1/.github/blob/main/CONTRIBUTING.md"
+                  href="https://github.com/2is1/.github/blob/master/profile/CONTRIBUTING.md"
                   target="_blank"
                   rel="noreferrer"
                   className="rounded-xl border border-white/15 bg-white/5 px-5 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
