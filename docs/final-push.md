@@ -12,7 +12,10 @@ Actions required before final push:
 3. **Build and verify the production application**:
    - Build the app for production:
      ```bash
-     yarn prod
+     yarn build
      ```
-   - Serve the built app using `http-server` and retest on Chrome, Firefox, and Opera browsers.
+   - Serve the built app and retest on Chrome, Firefox, and Opera browsers.
+     ```bash
+     yarn preview
+     ```
 4. **Commit your changes and push into dev branch**

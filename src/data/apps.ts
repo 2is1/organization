@@ -5,7 +5,7 @@ export type AppItem = {
   name: string;
   tagline: string;
   description: string;
-  category: ("Web" | "Mobile" | "CLI" | "Library" | "AI")[];
+  category: ("Web" | "Desktop" | "Mobile" | "CLI" | "Library" | "AI")[];
   status: AppStatus;
   stack: string[];
   stars?: number;
@@ -27,7 +27,7 @@ export const apps: AppItem[] = [
     status: "stable",
     stack: ["React", "Vite", "TypeScript", "Node.js", "Tailwind", "SQLite"],
     // stars: 1284,
-    updated: "2026-09-09",
+    updated: "2026-09-20",
     repo: "https://github.com/2is1/tier-list",
     demo: "https://tier-list.click",
     accent: "from-cyan-400 to-blue-600",
@@ -43,10 +43,25 @@ export const apps: AppItem[] = [
     status: "alpha",
     stack: ["React", "Vite", "TypeScript", "Nest.js", "Tailwind", "React-Native", "PostgreSQL"],
     // stars: 932,
-    updated: "2026-09-16",
+    updated: "2026-10-05",
     repo: "https://github.com/2is1/offside",
     accent: "from-violet-400 to-fuchsia-600",
     glyph: "⚽",
+  },
+  {
+    slug: "tic",
+    name: "Tic",
+    tagline: "One System. Infinite Channels. Zero Compromise.",
+    description:
+      "A world-class, multi-channel TV playout automation system.",
+    category: ["Web", "Desktop"],
+    status: "alpha",
+    stack: ["React", "Vite", "TypeScript", "Node.js", "Tailwind", "PostgreSQL"],
+    // stars: 932,
+    updated: "2026-10-04",
+    repo: "https://github.com/2is1/tic",
+    accent: "from-emerald-400 to-teal-600",
+    glyph: "📺",
   },
   // {
   //   slug: "mergemind",
@@ -142,7 +157,7 @@ export const apps: AppItem[] = [
   // },
 ];
 
-export const categories = ["All", "Web", "Mobile"/*, "CLI", "Library", "AI"*/] as const;
+export const categories = ["All", "Web", "Desktop", "Mobile"/*, "CLI", "Library", "AI"*/] as const;
 
 export const statusStyles: Record<AppStatus, string> = {
   stable: "bg-emerald-500/10 text-emerald-300 ring-emerald-500/30",
