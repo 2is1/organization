@@ -20,7 +20,7 @@ const steps = [
 
 export function Contribute() {
   return (
-    <section id="contribute" className="scroll-mt-24 border-t border-white/5 py-20">
+    <section id="contribute" className="scroll-mt-24 border-t border-white/5 py-10">
       <div className="mx-auto max-w-6xl px-5">
         <div className="relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-white/[0.07] to-transparent p-8 sm:p-12">
           <div className="pointer-events-none absolute -left-24 -top-24 h-72 w-72 rounded-full bg-violet-600/20 blur-3xl" />

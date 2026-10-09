@@ -88,7 +88,7 @@ export function DeploySection() {
   };
 
   return (
-    <section id="deploy" className="scroll-mt-24 border-t border-white/5 py-20">
+    <section id="deploy" className="scroll-mt-24 border-t border-white/5 py-10">
       <div className="mx-auto max-w-6xl px-5">
         <div className="grid gap-10 lg:grid-cols-[0.85fr_1.15fr]">
           <div>

@@ -146,7 +146,7 @@ export function AppsSection() {
   }, [query, cat, sort]);
 
   return (
-    <section id="apps" className="scroll-mt-24 border-t border-white/5 py-20">
+    <section id="apps" className="scroll-mt-24 border-t border-white/5 py-10">
       <div className="mx-auto max-w-6xl px-5">
         <div className="flex flex-wrap items-end justify-between gap-4">
           <div>

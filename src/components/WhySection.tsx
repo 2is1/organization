@@ -34,7 +34,7 @@ const options = [
 
 export function WhySection() {
   return (
-    <section id="why" className="scroll-mt-24 border-t border-white/5 py-20">
+    <section id="why" className="scroll-mt-24 border-t border-white/5 py-10">
       <div className="mx-auto max-w-6xl px-5">
         <p className="text-xs font-semibold uppercase tracking-[0.2em] text-violet-400">
           The stack decision
